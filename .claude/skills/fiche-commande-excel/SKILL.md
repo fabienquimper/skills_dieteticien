@@ -11,6 +11,10 @@ allowed-tools:
 
 # /fiche-commande-excel — Classeur Excel d'une commande
 
+> 📁 **Emplacement.** Lance les commandes depuis la **racine du harness** (ton répertoire de
+> travail, contenant `recettes/` et `data/`). Le script `generer.py` auto-détecte la racine, mais
+> les chemins d'exemple (`commandes/...`, `.claude/skills/...`) sont relatifs à elle (cf. `CLAUDE.md`).
+
 Produit un fichier `.xlsx` à **4 onglets** à partir d'une commande. Le calcul est **déterministe**
 (script Python + `openpyxl`), pas une estimation à la volée.
 

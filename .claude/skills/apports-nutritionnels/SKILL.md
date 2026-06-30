@@ -10,6 +10,10 @@ allowed-tools:
 
 # /apports-nutritionnels — Apports nutritionnels d'une recette
 
+> 📁 **Emplacement.** `recettes/`, `profils/`, `data/`, `commandes/` sont à la **racine du harness**
+> (ton répertoire de travail, contenant `recettes/` et `data/`) — **pas** dans `.claude/skills/`.
+> Tous les chemins ci-dessous sont relatifs à cette racine (cf. `CLAUDE.md`).
+
 Estime les apports d'une recette à partir de la table de référence locale.
 
 Arguments : `$ARGUMENTS`

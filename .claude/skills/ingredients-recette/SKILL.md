@@ -10,6 +10,10 @@ allowed-tools:
 
 # /ingredients-recette — Liste d'ingrédients détaillée
 
+> 📁 **Emplacement.** `recettes/`, `profils/`, `data/`, `commandes/` sont à la **racine du harness**
+> (ton répertoire de travail, contenant `recettes/` et `data/`) — **pas** dans `.claude/skills/`.
+> Tous les chemins ci-dessous sont relatifs à cette racine (cf. `CLAUDE.md`).
+
 Transforme une recette en liste d'ingrédients précise et mise à l'échelle.
 
 Arguments : `$ARGUMENTS`

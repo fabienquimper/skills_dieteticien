@@ -11,6 +11,10 @@ allowed-tools:
 
 # /creer-recette — Concevoir une recette adaptée
 
+> 📁 **Emplacement.** `recettes/`, `profils/`, `data/`, `commandes/` sont à la **racine du harness**
+> (ton répertoire de travail, contenant `recettes/` et `data/`) — **pas** dans `.claude/skills/`.
+> Tous les chemins ci-dessous sont relatifs à cette racine (cf. `CLAUDE.md`).
+
 Génère une recette au **format canonique** du harness, respectant un ou plusieurs profils
 diététiques et des contraintes. Conçu pour un diététicien-traiteur.
 

@@ -10,6 +10,10 @@ allowed-tools:
 
 # /liste-course-traiteur — Liste de courses agrégée
 
+> 📁 **Emplacement.** `recettes/`, `profils/`, `data/`, `commandes/` sont à la **racine du harness**
+> (ton répertoire de travail, contenant `recettes/` et `data/`) — **pas** dans `.claude/skills/`.
+> Tous les chemins ci-dessous sont relatifs à cette racine (cf. `CLAUDE.md`).
+
 Produit la liste de courses complète pour une prestation (1..N plats, quantités variables).
 
 Arguments : `$ARGUMENTS`

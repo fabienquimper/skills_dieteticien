@@ -10,6 +10,10 @@ allowed-tools:
 
 # /allergenes-recette — Déclaration des allergènes (INCO)
 
+> 📁 **Emplacement.** `recettes/`, `profils/`, `data/`, `commandes/` sont à la **racine du harness**
+> (ton répertoire de travail, contenant `recettes/` et `data/`) — **pas** dans `.claude/skills/`.
+> Tous les chemins ci-dessous sont relatifs à cette racine (cf. `CLAUDE.md`).
+
 Détermine les **14 allergènes à déclaration obligatoire** (règlement UE INCO) d'un ingrédient,
 d'une recette ou d'un ensemble de plats.
 

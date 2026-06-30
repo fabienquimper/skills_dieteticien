@@ -11,6 +11,10 @@ allowed-tools:
 
 # /organiser-semaine-dieteticien — Plan de repas hebdomadaire
 
+> 📁 **Emplacement.** `recettes/`, `profils/`, `data/`, `commandes/` sont à la **racine du harness**
+> (ton répertoire de travail, contenant `recettes/` et `data/`) — **pas** dans `.claude/skills/`.
+> Tous les chemins ci-dessous sont relatifs à cette racine (cf. `CLAUDE.md`).
+
 Construit un **planning 7 jours × 3 repas** (matin / midi / soir) adapté à un objectif et à des
 contraintes, puis l'exporte en **« commande »** réutilisable.
 

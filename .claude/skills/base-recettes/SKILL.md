@@ -12,6 +12,10 @@ allowed-tools:
 
 # /base-recettes — Gérer la base de recettes
 
+> 📁 **Emplacement.** `recettes/`, `profils/`, `data/`, `commandes/` sont à la **racine du harness**
+> (ton répertoire de travail, contenant `recettes/` et `data/`) — **pas** dans `.claude/skills/`.
+> Tous les chemins ci-dessous sont relatifs à cette racine (cf. `CLAUDE.md`).
+
 Point d'entrée pour parcourir et maintenir `recettes/`. **Seul skill autorisé à écrire** dans la base.
 
 Arguments : `$ARGUMENTS` (première sous-commande + paramètres). Si vide → `lister`.
